@@ -14,7 +14,7 @@ Finally, open the VScode application. If your screen looks like the image below,
 
 ## Remotely Connecting
 First, reset the password to your CSE15L Account by following these steps:
-1. click this link: [Link](https://sdacs.ucsd.edu/~icc/index.php)
+1. click this link: [https://sdacs.ucsd.edu](https://sdacs.ucsd.edu/~icc/index.php)
 2. enter your username (the same as in your ucsd email) and PID where it says account lookup
 ![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20164019.png)
 
