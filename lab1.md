@@ -36,4 +36,21 @@ First, reset the password to your CSE15L Account by following these steps:
 
 
 Once you reset your password, remotely connect by following these steps:
-1. 
+1. if you use windows, download git by going to this link, selecting download, and complete the steps for installation: [https://gitforwindows.org](https://gitforwindows.org/)
+![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20185256.png)
+
+
+2. open VScode and open a new terminal
+![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20185717.png)
+
+
+3. Open the command palette using Ctrl + Shift + P and type and select "Select Default Profile"
+![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20185917.png)
+
+
+4. select GitBash
+![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20190140.png)
+
+
+5. click on the + icon in the terminal window and the new terminal should be a Git Bash terminal
+![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20190223.png)
