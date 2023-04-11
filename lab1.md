@@ -65,6 +65,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 ![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20192841.png)
 
 ## Using Commands
-Try running the commands `cd`, `ls`, `pwd`, `mkdir`, and `cp`
+Try running the commands `cd`, `ls`, `pwd`, `mkdir`, and `cp`.
 Here is a screenshot of some examples:
 ![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20194004.png)
