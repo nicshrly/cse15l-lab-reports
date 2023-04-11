@@ -51,17 +51,17 @@ Once you reset your password, remotely connect by following these steps:
 5. click on the + icon in the terminal window and the new terminal should be a Git Bash terminal
 ![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20190223.png)
 
-6. in your terminal, enter '$ ssh cs15lsp23zz@ieng6.ucsd.edu' with 'zz' being replaced by the two letters in your course account (you don't type the '$')
+6. in your terminal, enter `$ ssh cs15lsp23zz@ieng6.ucsd.edu` with `zz` being replaced by the two letters in your course account (you don't type the `$`)
 
-7. enter 'yes' if you get the message
-'The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])?'
-
-
-8. when prompted with 'Password:', type in the password you set for your account earlier (nothing will show up as you type in the password, it is not a mistake)
+7. enter `yes` if you get the message:
+`The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
 
-10. if oyu have loghed in successfully, your terminal output should look like this:
+8. when prompted with `Password:`, type in the password you set for your account earlier (nothing will show up as you type in the password, it is not a mistake)
+
+
+10. if you have logged in successfully, your terminal output should look like this:
 ![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20192841.png)
 
 ## Using Commands
