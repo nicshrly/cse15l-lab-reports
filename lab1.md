@@ -5,7 +5,7 @@ Follow this link [https://code.visualstudio.com/download](https://code.visualstu
 
 
 Then, open the VScode application. If your screen looks like the image below, you have completed the installation of VScode.
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20161913.png)
+![Image](Screenshot%202023-04-10%20161913.png)
 
 
 ## Remotely Connecting
