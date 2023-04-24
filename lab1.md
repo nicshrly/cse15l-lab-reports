@@ -71,11 +71,6 @@ Next, you should try running some commands on the terminal. Here are some comman
 ![Image](lr1_p3.png)
 
 
-- `cd <path>`: switches the current working directory to the given path. (nothing will show up when u run this command, so to see if it actually worked, you can use the command `pwd` after)
-
-![Image](lr1_p3.2.png)
-
-
 - `ls <path>`: displays a list of the files and folders in the given path
 
 ![Image](lr1_p3.4.png)
@@ -84,3 +79,8 @@ Next, you should try running some commands on the terminal. Here are some comman
 - `cat <path1> <path2>`: displays the ocntents of one or more files given by the paths
 
 ![Image](lr1_p3.3.png)
+
+
+- `cd <path>`: switches the current working directory to the given path. (nothing will show up when u run this command, so to see if it actually worked, you can use the command `pwd` after)
+
+![Image](lr1_p3.5.png)
