@@ -81,6 +81,6 @@ Next, you should try running some commands on the terminal. Here are some comman
 ![Image](lr1_p3.3.png)
 
 
-- `cd <path>`: switches the current working directory to the given path. (nothing will show up when u run this command, so to see if it actually worked, you can use the command `pwd` after)
+- `cd <path>`: switches the current working directory to the given path. (nothing will show up when you run this command so to see if it actually worked, you can use the command `pwd` after)
 
 ![Image](lr1_p3.5.png)
