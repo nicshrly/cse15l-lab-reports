@@ -78,3 +78,4 @@ By changing `arr[i] = newArray[arr.length - i - 1];` to `newArray[i] = arr[arr.l
 
 
 ## Part 3
+In lab 2, I learned how to write and run a local web server from my personal laptop and a remote server. In addition, I learned how to manipulate the output displayed on the web server by editing parts of the url.
