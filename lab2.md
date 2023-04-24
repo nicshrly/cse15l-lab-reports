@@ -75,3 +75,7 @@ Fixed program:
     return newArray;
   }
 ```
+By changing `arr[i] = newArray[arr.length - i - 1];` to `newArray[i] = arr[arr.length - i - 1];`, we ensure that we are updating `newArray` with the reversed elements of `arr` and not the other way around. In addition, by changing `return arr;` to `return newArray;`, we ensure that we are returning the new revered array rather than the the original input.
+
+
+## Part 3
