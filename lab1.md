@@ -67,10 +67,20 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 ## Using Commands
 Next, you should try running some commands on the terminal. Here are some commands you can try and a short description of what they do:
 - `pwd`: displays the path to your current working directory
+
 ![Image](lr1_p3.png)
+
+
 - `cd <path>`: switches the current working directory to the given path
+
 ![Image](lr1_p3.2.png)
+
+
 - `ls <path>`: displays a list of the files and folders in the given path
+
 ![Image](lr1_p3.4.png)
+
+
 - `cat <path1> <path2>`: displays the ocntents of one or more files given by the paths
+
 ![Image](lr1_p3.3.png)
