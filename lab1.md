@@ -12,15 +12,15 @@ Then, open the VScode application. If your screen looks like the image below, yo
 First, reset the password to your CSE15L Account by following these steps:
 1. click this link: [https://sdacs.ucsd.edu](https://sdacs.ucsd.edu/~icc/index.php)
 2. enter your username (the same as in your ucsd email) and PID where it says account lookup
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20164019.png)
+![Image](Screenshot%202023-04-10%20164019.png)
 
 
 3. select your cs15l account
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20182259.png)
+![Image](Screenshot%202023-04-10%20182259.png)
 
 
 4. click the link that says "Global Password Change Tool"
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20182522.png)
+![Image](Screenshot%202023-04-10%20182522.png)
 
 
 5. click the link that says "Proceed to the Password Change Tool"
