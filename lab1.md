@@ -73,4 +73,4 @@ Next, you should try running some commands on the terminal. Here are some comman
 - `ls <path>`: displays a list of the files and folders in the given path
 ![Image](lr1_p3.4.png)
 - `cat <path1> <path2>`: displays the ocntents of one or more files given by the paths
-![Image](lr1.p3.3.png)
+
