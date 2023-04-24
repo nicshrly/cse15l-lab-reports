@@ -24,32 +24,32 @@ First, reset the password to your CSE15L Account by following these steps:
 
 
 5. click the link that says "Proceed to the Password Change Tool"
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20182742.png)
+![Image](Screenshot%202023-04-10%20182742.png)
 
 
 6. enter your unique CSE15l account username and follow the steps to reset your password
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20182940.png) 
+![Image](Screenshot%202023-04-10%20182940.png) 
 
 
 Once you reset your password, remotely connect by following these steps:
 1. if you use windows, download git by going to this link [https://gitforwindows.org](https://gitforwindows.org/), select download, and complete the steps for installation
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20185256.png)
+![Image](Screenshot%202023-04-10%20185256.png)
 
 
 2. open VScode and open a new terminal
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20185717.png)
+![Image](Screenshot%202023-04-10%20185717.png)
 
 
 3. Open the command palette using Ctrl + Shift + P and type and select "Select Default Profile"
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20185917.png)
+![Image](Screenshot%202023-04-10%20185917.png)
 
 
 4. select GitBash
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20190140.png)
+![Image](Screenshot%202023-04-10%20190140.png)
 
 
 5. click on the + icon in the terminal window and the new terminal should be a Git Bash terminal
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20190223.png)
+![Image](Screenshot%202023-04-10%20190223.png)
 
 6. in your terminal, enter `$ ssh cs15lsp23zz@ieng6.ucsd.edu` with `zz` being replaced by the two letters in your course account (you don't type the `$`)
 
@@ -62,9 +62,9 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
 
 10. if you have logged in successfully, your terminal output should look like this:
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20192841.png)
+![Image](Screenshot%202023-04-10%20192841.png)
 
 ## Using Commands
 Try running the commands `cd`, `ls`, `pwd`, `mkdir`, and `cp`.
 Here is a screenshot of some examples:
-![Image](https://github.com/nicshrly/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20194004.png)
+![Image](Screenshot%202023-04-10%20194004.png)
