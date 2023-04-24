@@ -46,6 +46,13 @@ When I edit the url to http://localhost:7000/add-message?s=how are you, the `han
 
 
 ## Part 2
+Failure-inducing input: `int[] input2 = {1, 2, 3, 4, 5};`
+
+Non failure-inducing input: `int[] input1 = {};`
+
+JUnit output:
+![Image](lr2_p2.png)
+
 Buggy program:
 ```
   static int[] reversed(int[] arr) {
@@ -56,14 +63,6 @@ Buggy program:
     return arr;
   }
  ```
- 
- 
-Failure-inducing input: `int[] input2 = {1, 2, 3, 4, 5};`
-
-Non failure-inducing input: `int[] input1 = {};`
-
-JUnit output:
-![Image](lr2_p2.png)
 
 Fixed program:
 ```
