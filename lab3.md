@@ -22,7 +22,7 @@ $ grep -i "VIOLENT" chapter-2.txt
 ```
 In this example, grep was searching for the word "VIOLENT" in the file `chapter-2.txt` and returned lines with the word in all lower case.
 
-Both examples demonstrated that this option is helpful when you wan to find instances of a word appearing in a file but can't remember or don't care about the case of the word.
+Both examples demonstrated that this option is helpful when you want to find instances of a word appearing in a file but can't remember or don't care about the case of the word.
 
 
 ## grep -r (recursive)
@@ -54,7 +54,7 @@ government/Gen_Account_Office/Statements_Feb28-1997_volume.txt:FOREWORD
 ```
 In this example, grep is searhing through all of the files and directories in `.\technical` for the word "FOREWORD" and returns the lines cointaining the word as well as the relative path to the file it is in.
 
-Both examples demonstrate that this option is helful when you want to find the files a specific word appears in and the line it is in.
+Both examples demonstrate that this option is helful when you want to find all the files a specific word appears in your current working directory.
 
 
 ## grep -n (line number)
