@@ -1,6 +1,9 @@
 # **Lab Report 3**
 ## grep -i (ignore case)
 This option tells grep to ignore the case of the thing you are searching for.
+
+I found this option by asking chatGPT "what are 4 grep command line options"
+
 ```
 $ grep -i "nothing" chapter-2.txt
                 in the world today and the worst terrorists are the Americans. Nothing could stop
@@ -24,6 +27,9 @@ Both examples demonstrated that this option is helpful when you wan to find inst
 
 ## grep -r (recursive)
 This option tells grep to search all files and directories recursively, similar to the `find` command 
+
+I found this option by asking chatGPT "what are 4 grep command line options"
+
 ```
 $ grep -r "deterministic"
 biomed/1471-2180-3-11.txt:        derivation of a set of deterministic equations that
@@ -53,6 +59,9 @@ Both examples demonstrate that this option is helful when you want to find the f
 
 ## grep -n (line number)
 This option tells grep to print the line numbers of the matched lines.
+
+I found this option by asking chatGPT "what are 4 grep command line options"
+
 ```
 $ grep -n "COUNTERTERRORISM" chapter-3.txt
 4:            COUNTERTERRORISM EVOLVES
@@ -74,6 +83,9 @@ Both examples demonstrate that this is helpful when you want to find the line nu
 
 ## grep -w (word match)
 This option tells grep to match only whole words.
+
+I found this option by asking chatGPT "what are 4 grep command line options"
+
 ```
 $ grep -w "COUNTERTERRORISM" chapter-3.txt
             COUNTERTERRORISM EVOLVES
