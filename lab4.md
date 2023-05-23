@@ -15,7 +15,7 @@ bash<space>test.sh<enter>
 image
   
 step 7
-vim<space>ListExamples.java<enter>
+vim<space><shift>List<shift>Examples.java<enter>
 /index1<enter>nnnnnnnnn<left><left><left><left><left>xi2<esc><shift>;wq<enter>
 image
   
@@ -24,3 +24,8 @@ bash<space>test.sh<enter>
 image
   
 step 9
+git<space>add<space><shift>List<shift>Examples.java<enter>
+git<space>commit<space>-m<space>"modified<space><shift>List<shift>Examples"<enter>
+git<space>push<space>-u<space><ctrl>c<space>main<enter>
+git@github.com:nicshrly/lab7.2.git on clipboard
+image
