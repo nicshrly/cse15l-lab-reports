@@ -52,7 +52,7 @@ Keys pressed: git`<space>`commit`<space>`-m`<space>`"modified`<space><shift>`Lis
 
 With this command, I commited the modifications to `ListExamples.java`.
 
-Keys pressed: git`<space>`push`<space>`-u`<space>` `<ctrl>`c`<space>`main`<enter>`
+Keys pressed: git`<space>`push`<space>`-u`<space><ctrl>`c`<space>`main`<enter>`
 
 With this command, I pushed my changes to my github repository. Since `git@github.com:nicshrly/lab7.2.git` was copied on my clipcoard, I used `ctrl+c` to paste it instead of typing out the whole thing.
 
