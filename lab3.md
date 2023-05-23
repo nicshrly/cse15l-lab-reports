@@ -99,3 +99,8 @@ $ grep -w "respect" journal.pbio.0020001.txt
 In this example, grep searched for the word respect in the file `jornal.pbio.txt` and returnd the line it appeared in. In this file, the word "respectively," which contains the word "respect," also appeared in the file, yet it wasn't printed to the terminal because it wasn't just the word "respect" on its own.
 
 Both examples demonstrate that this option is useful when the word you want to find is a single letter or common root for other words but you just want to find the letter or root word itself.
+
+
+## ChatGPT commands and output
+![Image](lr3_1.png)
+![Image](lr3_2.png)
