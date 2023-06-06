@@ -10,7 +10,7 @@ Screenshots are great, copy-pasted terminal output is also great. Avoid saying â
   I am trying to isolate the second line of the JUnit output that has the E's and dots so that I can count the amount of
   errors the student has and give them a grade. The JUnit output is in a file called output.txt and I tried using the head 
   and tail commands to extract the line I want and redirect it to rsult.txt. However, when I run the commands, result.txt 
-  comes back empty. I made sure to put the right numbers when using the head and tail commands because i counted them. Im 
+  comes back empty. I know I put the right numbers when using the head and tail commands because I counted them. I'm 
   not sure why there is no output.
   
   ![Image](lr5_1.png)
@@ -32,7 +32,7 @@ arguments, working directory, even the last few commands you ran. Do your best t
   
  ## Leading TA Response
  Is the error caused by both the head and tail commands, or could it be just one that is causing the error? Try adding a cat command in between
- the head and tail commands to see how each modies the result.txt file.
+ the head and tail commands to see how each one modfies the result.txt file.
  
  ## Student Follow-up Response
  I added the cat command and it seems like the head command is working as intended since it outputs the first two lines of the JUnit output. The
@@ -136,8 +136,8 @@ $ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3
 
 How to fix the bug:
 
-Simply redirect the output of `tail -n 1 result.txt` into a new file called result2.txt
-the command should look like `tail -n 1 result.txt > result2.txt`
+Simply redirect the output of `tail -n 1 result.txt` into a new file (I called it result2.txt).
+The command should look something like `tail -n 1 result.txt > result2.txt`
 
 Content of grade.sh after fixing the bug:
  
@@ -197,3 +197,4 @@ Content of result2.txt after fixing the bug:
 ```
 
 ## Reflection
+Something I learned in the seocnd half of the course is output redirection. It can be really finicky and cause unexpexted errors when not used carefully (as demonstrated above), but it can also be really helpful. I also learned that there are two types of output, standard output and standard error output. Sometimes we might want one or both of these outputs, so they can be redirected using commands like `2>` or `2>&1`
