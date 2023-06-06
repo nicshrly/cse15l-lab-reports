@@ -46,7 +46,7 @@ error must be occuring when I use the tail command and redirect the input back i
 ## TA Solution
 Try redirecting the output of the tail command into a different file other than result.txt.
  
-## Studnet Follow-up Response
+## Student Follow-up Response
 Error fixed, ty! :3 
  
 ![Image](lr5_4.png)
