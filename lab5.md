@@ -30,33 +30,34 @@ arguments, working directory, even the last few commands you ran. Do your best t
   
   tail -n 1 result.txt > result.txt
   
- ## Leading TA Response
- Is the error caused by both the head and tail commands, or could it be just one that is causing the error? Try adding a cat command in between
- the head and tail commands to see how each one modfies the result.txt file.
+## Leading TA Response
  
- ## Student Follow-up Response
- I added the cat command and it seems like the head command is working as intended since it outputs the first two lines of the JUnit output. The
- error must be occuring when I use the tail command and redirect the input back into the result.txt file.
+Is the error caused by both the head and tail commands, or could it be just one that is causing the error? Try adding a cat command in between
+the head and tail commands to see how each one modfies the result.txt file.
  
- ![Image](lr5_3.png)
+## Student Follow-up Response
+I added the cat command and it seems like the head command is working as intended since it outputs the first two lines of the JUnit output. The
+error must be occuring when I use the tail command and redirect the input back into the result.txt file.
  
- ## TA Solution
- Try redirecting the output of the tail command into a different file other than result.txt.
+![Image](lr5_3.png)
  
- ## Studnet Follow-up Response
- Error fixed, ty! :3 
+## TA Solution
+Try redirecting the output of the tail command into a different file other than result.txt.
  
- ![Image](lr5_4.png)
+## Studnet Follow-up Response
+Error fixed, ty! :3 
  
- ![Image](lr5_5.png)
+![Image](lr5_4.png)
  
- ## Setup Info
- I used a fork of the list_examples_grader directory from lab 6. 
+![Image](lr5_5.png)
  
- Content of grade.sh before fixing the bug:
+## Setup Info
+I used a fork of the list_examples_grader directory from lab 6. 
  
- ```
- CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+Content of grade.sh before fixing the bug:
+ 
+```
+CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
 rm -rf grading-area
