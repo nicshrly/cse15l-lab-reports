@@ -31,7 +31,7 @@ arguments, working directory, even the last few commands you ran. Do your best t
   tail -n 1 result.txt > result.txt
   
  ## Leading TA Response
- Is the error caused by both the head and tail commands, or could it be just one that is causing the error? Try adding a cat command inbtween
+ Is the error caused by both the head and tail commands, or could it be just one that is causing the error? Try adding a cat command in between
  the head and tail commands to see how each modies the result.txt file.
  
  ## Student Follow-up Response
@@ -51,5 +51,6 @@ arguments, working directory, even the last few commands you ran. Do your best t
  ![Image](lr5_5.png)
  
  ## Setup Info
+ I used a fork of the list_examples_grader directory from lab 6. The relevant code from the grade.sh file I used is as follows:
  
  
