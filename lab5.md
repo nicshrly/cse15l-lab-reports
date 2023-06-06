@@ -51,6 +51,149 @@ arguments, working directory, even the last few commands you ran. Do your best t
  ![Image](lr5_5.png)
  
  ## Setup Info
- I used a fork of the list_examples_grader directory from lab 6. The relevant code from the grade.sh file I used is as follows:
+ I used a fork of the list_examples_grader directory from lab 6. 
  
+ Content of grade.sh before fixing the bug:
  
+ ```
+ CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+
+rm -rf student-submission
+rm -rf grading-area
+
+mkdir grading-area
+
+git clone $1 student-submission
+echo 'Finished cloning'
+
+files=$(find student-submission/*.java)
+for file in $files
+do
+    if [[ -f $file ]] && [[ $file == student-submission/ListExamples.java ]]
+        then
+            echo 'submitted correct file'
+    else
+        echo 'incorrect file/file missing'
+        exit
+    fi
+done
+
+cp student-submission/ListExamples.java grading-area
+cp TestListExamples.java grading-area
+cp -r lib grading-area
+
+cd grading-area
+javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java > output.txt 2>&1
+if [[ $? -ne 0 ]]
+    then exit
+fi
+java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples > output.txt 2>&1
+
+# if [[ grep "OK" output.txt ]]
+
+head -n 2 output.txt > result.txt
+tail -n 1 result.txt > result.txt
+```
+
+Content of output.txt before fixing the bug:
+```
+JUnit version 4.13.2
+.E.E.E
+Time: 1.246
+There were 3 failures:
+1) testMerge(TestListExamples)
+org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
+	at ListExamples.merge(ListExamples.java:43)
+	at TestListExamples.testMerge(TestListExamples.java:61)
+2) testMergeRightEnd(TestListExamples)
+org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3512)
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3481)
+	at java.base/java.util.ArrayList.grow(ArrayList.java:237)
+	at java.base/java.util.ArrayList.grow(ArrayList.java:244)
+	at java.base/java.util.ArrayList.add(ArrayList.java:454)
+	at java.base/java.util.ArrayList.add(ArrayList.java:467)
+	at ListExamples.merge(ListExamples.java:42)
+	at TestListExamples.testMergeRightEnd(TestListExamples.java:18)
+3) testFilter(TestListExamples)
+java.lang.AssertionError: expected:<[test, testt]> but was:<[testt, test]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at TestListExamples.testFilter(TestListExamples.java:38)
+
+FAILURES!!!
+Tests run: 3,  Failures: 3
+
+```
+
+Content of result.txt before fixing the bug: empty
+
+Terminal command used to trigger the bug:
+
+$ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3
+
+How to fix the bug:
+
+Simply redirect the output of `tail -n 1 result.txt` into a new file called result2.txt
+the command should look like `tail -n 1 result.txt > result2.txt`
+
+Content of grade.sh after fixing the bug:
+ 
+ ```
+ CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+
+rm -rf student-submission
+rm -rf grading-area
+
+mkdir grading-area
+
+git clone $1 student-submission
+echo 'Finished cloning'
+
+files=$(find student-submission/*.java)
+for file in $files
+do
+    if [[ -f $file ]] && [[ $file == student-submission/ListExamples.java ]]
+        then
+            echo 'submitted correct file'
+    else
+        echo 'incorrect file/file missing'
+        exit
+    fi
+done
+
+cp student-submission/ListExamples.java grading-area
+cp TestListExamples.java grading-area
+cp -r lib grading-area
+
+cd grading-area
+javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java > output.txt 2>&1
+if [[ $? -ne 0 ]]
+    then exit
+fi
+java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples > output.txt 2>&1
+
+# if [[ grep "OK" output.txt ]]
+
+head -n 2 output.txt > result.txt
+echo -------------
+cat result.txt
+tail -n 1 result.txt > result2.txt
+```
+
+Content of result.txt after fixing the bug: 
+```
+JUnit version 4.13.2
+.E.E.E
+
+```
+
+Content of result2.txt after fixing the bug:
+```
+.E.E.E
+
+```
+
+## Reflection
