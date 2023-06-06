@@ -20,11 +20,13 @@ Screenshots are great, copy-pasted terminal output is also great. Avoid saying â
 Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line 
 arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 
+  I am using the forked repository list_examples_grader for lab 6.
+  
   Terminal command: 
   
   $ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3
   
-  Shell file commands:
+  Failure-inducing shell file commands:
 
   head -n 2 output.txt > result.txt
   
