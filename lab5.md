@@ -9,7 +9,7 @@ Screenshots are great, copy-pasted terminal output is also great. Avoid saying â
 
   I am trying to isolate the second line of the JUnit output that has the E's and dots so that I can count the amount of
   errors the student has and give them a grade. The JUnit output is in a file called output.txt and I tried using the head 
-  and tail commands to extract the line I want and redirect it to rsult.txt. However, when I run the commands, result.txt 
+  and tail commands to extract the line I want and redirect it to result.txt. However, when I run the commands, result.txt 
   comes back empty. I know I put the right numbers when using the head and tail commands because I counted them. I'm 
   not sure why there is no output.
   
